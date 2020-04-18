@@ -1,5 +1,5 @@
 import React from "react";
-import CountComponent from "./component/Count.container"
+import CountComponent from "components/Count.container"
 
 // const CountComponent = React.lazy(() => import('./components/CountComponent.container'))
 

@@ -1,5 +1,5 @@
 import {createStore, combineReducers,applyMiddleware} from "redux"
-import CountReducer from "./component/Count.reducer"
+import CountReducer from "components/Count.reducer"
 import { compose } from "redux"
 import thunk from "redux-thunk"
 

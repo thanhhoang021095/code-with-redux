@@ -1,10 +1,9 @@
 import { connect } from "react-redux";
-import {increaseAction,decreaseAction} from "./Count.action";
-import CountComponent from "./CountComponent"
+import {increaseAction,decreaseAction} from "components/Count.action";
+import CountComponent from "components/CountComponent"
 
 const mapStateToProps = (store) => ({
     count: store.CountReducer
-    
 })
 
 const mapDisPatchToProps = {
